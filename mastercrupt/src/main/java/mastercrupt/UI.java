@@ -1,11 +1,15 @@
 package mastercrupt;
 
 public class UI {
-    private Application application = new Application();
+    private ApplicationInterface applicationInterface;
     private String leeted;
-    
+
+    public UI(Application applicationInterface) {
+        this.applicationInterface = applicationInterface;
+    }
+
     public String leetMessage(String unLeeted) {
-        application.leet(unLeeted, this);
+        applicationInterface.leet(unLeeted, this);
         return "Leeted: " + leeted;
     }
 

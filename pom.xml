@@ -13,6 +13,7 @@
     </description>
     <modules>
         <module>mastercrupt</module>
+        <module>ui</module>
     </modules>
 
 
@@ -40,4 +41,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 </project>
