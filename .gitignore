@@ -1,4 +1,3 @@
-classes
 .metadata
 
 .gradle
@@ -13,3 +12,4 @@ example3/build
 *.iws
 .idea/
 out
+target
