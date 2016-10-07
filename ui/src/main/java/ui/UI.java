@@ -1,10 +1,10 @@
-package mastercrupt;
+package ui;
 
 public class UI {
     private ApplicationInterface applicationInterface;
     private String leeted;
 
-    public UI(Application applicationInterface) {
+    public UI(ApplicationInterface applicationInterface) {
         this.applicationInterface = applicationInterface;
     }
 

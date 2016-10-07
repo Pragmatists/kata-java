@@ -1,6 +1,7 @@
 package mastercrupt;
 
 import static org.junit.Assert.assertEquals;
+import ui.UI;
 
 import org.junit.Test;
 public class AcceptanceTest {

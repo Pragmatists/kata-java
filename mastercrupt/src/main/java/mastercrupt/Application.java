@@ -1,5 +1,10 @@
 package mastercrupt;
 
+import ui.ApplicationInterface;
+import ui.UI;
+
+import static com.sun.deploy.trace.TraceLevel.UI;
+
 public class Application implements ApplicationInterface {
     @Override
     public void leet(String string, UI ui) {
